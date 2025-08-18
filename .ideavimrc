@@ -63,6 +63,8 @@ map <leader>6 <Action>(GoToTab6)
 map <leader>7 <Action>(GoToTab7)
 map <leader>8 <Action>(GoToTab8)
 map <leader>9 <Action>(GoToTab9)
+nmap <C-.> <Action>(NextTab)
+nmap <C-,> <Action>(PreviousTab)
 
 " window
 map <leader>sh <Action>(MoveTabLeft)
@@ -241,6 +243,7 @@ map <leader>to <Action>(ActivateTODOToolWindow)
 
 " task
 map <leader>tg <Action>(tasks.goto)
+map <leader>td <Action>(tasks.and.contexts)
 map <leader>ts <Action>(tasks.switch)
 map <leader>tx <Action>(tasks.close)
 
