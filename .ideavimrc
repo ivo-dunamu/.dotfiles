@@ -50,6 +50,8 @@ map <leader>xp <Action>(CloseAllUnpinnedEditors)
 map <leader>xr <Action>(CloseAllToTheRight)
 map <leader>xl <Action>(CloseAllToTheLeft)
 map <leader>xe <Action>(CloseProject)
+map <C-S-,> <Action>(EditorDecreaseFontSize)
+map <C-S-.> <Action>(EditorIncreaseFontSize)
 
 " tab
 map <leader>p <Action>(PinActiveEditorTab)
@@ -235,8 +237,8 @@ map <leader>gsp <Action>(Git.Unstash)
 map <leader>grv <Action>(Git.Revert)
 map <leader>gt <Action>(Git.Tag)
 map <leader>gf <Action>(Git.Fetch)
-map <leader>gdh <Action>(Diff.PrevChange)
-map <leader>gdl <Action>(Diff.NextChange)
+map <D-S-,> <Action>(Diff.PrevChange)
+map <D-S-.> <Action>(Diff.NextChange)
 
 " todo
 map <leader>to <Action>(ActivateTODOToolWindow)
